@@ -32,3 +32,10 @@ County Votes:
 
 ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 * Diana DeGette won the election with a vote count of 272,892 votes and 73.8% of votes
+
+---
+
+## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+* The script can be modified by adding more counties in the county list that we use. This way, the analysis can be extended to beyond the local elections. The list we will be modifying is county_list[]
+* We can also add more candidate names to the candidate name list and extend it to beyond the local elections. The list that we will be changing is candidate_options[]
+
