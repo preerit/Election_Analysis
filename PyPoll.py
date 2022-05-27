@@ -54,6 +54,7 @@ total_votes = 0
 # Candidate Options
 candidate_options = []
 
+
 # 1. Declare the empty dictionary.
 candidate_votes = {}
 
@@ -141,7 +142,7 @@ with open(file_to_save, "w") as txt_file:
     # To do: print out each candidate's name, vote count, and percentage of
     # votes to the terminal.
 
-        # print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+            
 
         candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
@@ -158,7 +159,7 @@ with open(file_to_save, "w") as txt_file:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
-    
+
     # Save the winning candidate's results to the text file.
     txt_file.write(winning_candidate_summary)
 
